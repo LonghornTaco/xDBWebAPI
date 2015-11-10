@@ -8,8 +8,8 @@ using CitizenSC.xDBWebAPI.Common.Settings;
 
 namespace CitizenSC.xDBWebAPI.WebApi.Controllers
 {
-    public abstract class BaseWebApiController : ApiController
-    {
+   public abstract class BaseWebApiController : ApiController
+   {
       public IApplicationSettings AppSettings { get; private set; }
 
       public BaseWebApiController(IApplicationSettings appSettings)
